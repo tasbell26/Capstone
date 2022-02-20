@@ -5,18 +5,25 @@ html {
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
   text-align: center;
   font-size: 50px;
+  padding: 0;
+  margin: 0;
 }
 .banner {
-  background: url(https://images.pexels.com/photos/922353/pexels-photo-922353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.unsplash.com/photo-1598932025281-f89c3670ac53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHRyZWV8ZW58MHx8MHx8&w=1000&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #ad64c5 solid 4px;
 }
 .nav {
   background-color: #ad64c5;
   list-style: none;
   margin: 0;
+  width: 98%;
 }
 .nav > li {
   padding: 10px;
@@ -28,15 +35,20 @@ html {
   color: black;
   text-decoration: none;
 }
-.toR {
-  text-align: right;
-}
 .HPintro {
   text-align: center;
-  display: block;
   padding: 20px;
   margin: 10px;
   background-color: white;
   font-size: larger;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+}
+footer {
+  display: block;
+  text-align: center;
+}
+img {
+  max-width: 450px;
+  max-height: 450px;
+  border: #ad64c5 solid 4px;
 }
