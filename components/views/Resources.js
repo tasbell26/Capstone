@@ -1,0 +1,34 @@
+import html from "html-literal";
+export default () => html`
+<section id="Resources">
+    <div class="movies">
+        <!--add documentary links-->
+        <p><strong>Movies:</strong></p>
+    </div>
+    <div class="books">
+        <!--add books links-->
+        <p><strong>Books:</strong></p>
+    </div>
+    <div class="web">
+        <!--add website links-->
+        <p><strong>Web Links:</strong></p>
+    </div>
+    <div class="contactInfo">
+    <h4>Contact info: Tiffany Asbell</h4>
+    <p>Phone: (912) 655-1292</p>
+    <a href="https://www.linkedin.com/in/tiffany-a-a76801226?trk=people-guest_people_search-card" target="blank">Linkedin</a>
+    </div>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action=https://formspree.io/f/mbjwyjlp method="post">
+<fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Your website is amazing!" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+</fieldset>
+<input type="submit" value="Submit">
+</form>
+</section>
+`;
