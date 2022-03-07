@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import html from "html-literal";
 
 import * as views from "./views";

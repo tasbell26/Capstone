@@ -62,7 +62,7 @@
 53C:\Users\tasbe\code\savvycoders\Capstone\.stylelintrc132881556545151474 0
 74C:\Users\tasbe\code\savvycoders\Capstone\node_modules\enquirer\lib\ansi.js132881557594411516 0
 66C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\eq.js132910020073066617 0
-45C:\Users\tasbe\code\savvycoders\Capstone\dist132910715107969701 1
+45C:\Users\tasbe\code\savvycoders\Capstone\dist132911676059656646 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\before.js132910020072458205 0
 68C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds132909158916018074 1
 87C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\dist\lib\statuses.js132909158920978858 0
@@ -148,7 +148,7 @@
 72C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.package-lock.json132910020077934824 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\css-tree\lib\lexer\generic-urange.js132909158913931755 0
 60C:\Users\tasbe\code\savvycoders\Capstone\node_modules\dotenv132909158909355645 1
-50C:\Users\tasbe\code\savvycoders\Capstone\style.css132910712418628813 0
+50C:\Users\tasbe\code\savvycoders\Capstone\style.css132911676058645141 0
 70C:\Users\tasbe\code\savvycoders\Capstone\node_modules\type-fest\source132881557589257437 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\word-wrap\README.md132881557586917565 0
 58C:\Users\tasbe\code\savvycoders\Capstone\old\cryptids.html132909900402486820 0
@@ -202,7 +202,7 @@
 70C:\Users\tasbe\code\savvycoders\Capstone\node_modules\msgpackr-extract132909158914749788 1
 61C:\Users\tasbe\code\savvycoders\Capstone\store\Goexploring.js132909983281423882 0
 107C:\Users\tasbe\code\savvycoders\Capstone\node_modules\eslint-utils\node_modules\eslint-visitor-keys\LICENSE132881557595463032 0
-54C:\Users\tasbe\code\savvycoders\Capstone\store\Home.js132909982207208152 0
+54C:\Users\tasbe\code\savvycoders\Capstone\store\Home.js132911660562694612 0
 67C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\sum.js132910020076631908 0
 80C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\isArrayBuffer.js132910020074134882 0
 85C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\regions\PF.js132909158919991697 0
@@ -213,7 +213,7 @@
 61C:\Users\tasbe\code\savvycoders\Capstone\node_modules\regexpp132881557588578446 1
 77C:\Users\tasbe\code\savvycoders\Capstone\node_modules\colord\plugins\lab.d.ts132909158913118677 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\domutils\package.json132909158911113747 0
-55C:\Users\tasbe\code\savvycoders\Capstone\store\Links.js132910699688095677 0
+55C:\Users\tasbe\code\savvycoders\Capstone\store\Links.js132911659738623724 0
 85C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\regions\PN.js132909158920045392 0
 88C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss-reduce-initial\LICENSE-MIT132909158906883444 0
 97C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\dependencies\lz4\lib\lz4frame_static.h132909158915070075 0
@@ -232,7 +232,7 @@
 83C:\Users\tasbe\code\savvycoders\Capstone\node_modules\eslint\lib\rules\sort-keys.js132881557599024348 0
 88C:\Users\tasbe\code\savvycoders\Capstone\node_modules\abortcontroller-polyfill\README.md132909158911713927 0
 71C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\mean.js132910020074968237 0
-59C:\Users\tasbe\code\savvycoders\Capstone\store\Resources.js132910714780203369 0
+59C:\Users\tasbe\code\savvycoders\Capstone\store\Resources.js132911668892458117 0
 82C:\Users\tasbe\code\savvycoders\Capstone\node_modules\timsort\build\timsort.min.js132909158910406189 0
 78C:\Users\tasbe\code\savvycoders\Capstone\node_modules\prettier\bin-prettier.js132881557590969342 0
 94C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def132909158914903594 0
@@ -424,7 +424,7 @@
 67C:\Users\tasbe\code\savvycoders\Capstone\node_modules\cssnano-utils132909158910909452 1
 76C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\isObjectLike.js132910020074629658 0
 64C:\Users\tasbe\code\savvycoders\Capstone\node_modules\parse-json132909158907881599 1
-59C:\Users\tasbe\code\savvycoders\Capstone\components\Main.js132910019046399387 0
+59C:\Users\tasbe\code\savvycoders\Capstone\components\Main.js132911659031630395 0
 72C:\Users\tasbe\code\savvycoders\Capstone\node_modules\utility-types\dist132909158912133973 1
 100C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss-merge-longhand\types\lib\getValue.d.ts132909158913387708 0
 58C:\Users\tasbe\code\savvycoders\Capstone\node_modules\csso132909158913909708 1
@@ -2993,7 +2993,7 @@
 80C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\lazy-result.js132909158911155722 0
 78C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\_charsEndIndex.js132910020071050769 0
 94C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds\win32-x64\node.abi93.node132909158919645479 0
-68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132910712419557821 0
+68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132911676059636052 0
 105C:\Users\tasbe\code\savvycoders\Capstone\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js132909158907856160 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\list.d.ts132909158913387708 0
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\nanoid132909158922142397 0
@@ -3451,7 +3451,7 @@
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\parseInt.js132910020075666078 0
 89C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\css\properties.schema.json132909158912174932 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\index.js132909158907286241 0
-63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132910715107840964 0
+63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132911674298002808 0
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\pathEq.js132910020075666078 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\inheritance.schema.json132909158911595132 0
 95C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\features\svg-filters.js132909158921035534 0
@@ -7421,15 +7421,15 @@
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.cmd132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.ps1132909158922157294 0
-64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132910712419557821 0
-67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132910715107936918 0
+64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132911676059636052 0
+67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132911674298039489 0
 63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.c36f364e.js132909860858786427 0
 56C:\Users\tasbe\code\savvycoders\Capstone\dist\index.html132910710932686731 0
 61C:\Users\tasbe\code\savvycoders\Capstone\components\Footer.js132910714292486089 0
-58C:\Users\tasbe\code\savvycoders\Capstone\components\Nav.js132910707848109981 0
+58C:\Users\tasbe\code\savvycoders\Capstone\components\Nav.js132911671188243506 0
 57C:\Users\tasbe\code\savvycoders\Capstone\components\views132909137077155798 1
 70C:\Users\tasbe\code\savvycoders\Capstone\components\views\Blogposts.js132909915580608569 0
 72C:\Users\tasbe\code\savvycoders\Capstone\components\views\Goexploring.js132909906488377248 0
-65C:\Users\tasbe\code\savvycoders\Capstone\components\views\Home.js132910715106050609 0
+65C:\Users\tasbe\code\savvycoders\Capstone\components\views\Home.js132911674296720808 0
 79C:\Users\tasbe\code\savvycoders\Capstone\assets\img\5959385046_5480f4ed86_o.jpg132909860129295576 0
 64C:\Users\tasbe\code\savvycoders\Capstone\.vscode\extensions.json132881556545151474 0

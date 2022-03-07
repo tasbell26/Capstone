@@ -2,7 +2,7 @@ import html from "html-literal";
 
 // eslint-disable-next-line prettier/prettier
 export default (links) => html`
-  <nav class="navBar">
+  <nav>
     <i class="fas fa-bars"></i>
     <ul class="hidden--mobile nav-links">
       ${links.map(

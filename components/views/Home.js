@@ -14,15 +14,14 @@ export default () => html`
       have a story log in and share! Wanna plan a trip? Research the growing
       list of Cryptids and then hit the go exploring page and plan an adventure!
     </p>
-    <figure>
-      <img
-        src="https://live.staticflickr.com/6136/5959385046_49e475c150_b.jpg"
-        alt="Mothman Statue Point Pleasant, WV"
-      />
-      <figcaption>
-        Mothman Statue Point Pleasant, WV, OZinOH, no changes made,
-        https://www.flickr.com/photos/75905404@N00/5959385052/in/photostream/
-      </figcaption>
-    </figure>
+    <img
+      class="mothmanPic"
+      src="https://live.staticflickr.com/6136/5959385046_49e475c150_b.jpg"
+      alt="Mothman Statue Point Pleasant, WV"
+    />
+    <figcaption>
+      Mothman Statue Point Pleasant, WV, OZinOH, no changes made,
+      https://www.flickr.com/photos/75905404@N00/5959385052/in/photostream/
+    </figcaption>
   </section>
 `;
