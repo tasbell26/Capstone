@@ -62,7 +62,7 @@
 53C:\Users\tasbe\code\savvycoders\Capstone\.stylelintrc132881556545151474 0
 74C:\Users\tasbe\code\savvycoders\Capstone\node_modules\enquirer\lib\ansi.js132881557594411516 0
 66C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\eq.js132910020073066617 0
-45C:\Users\tasbe\code\savvycoders\Capstone\dist132911676059656646 1
+45C:\Users\tasbe\code\savvycoders\Capstone\dist132911685091619551 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\before.js132910020072458205 0
 68C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds132909158916018074 1
 87C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\dist\lib\statuses.js132909158920978858 0
@@ -148,7 +148,7 @@
 72C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.package-lock.json132910020077934824 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\css-tree\lib\lexer\generic-urange.js132909158913931755 0
 60C:\Users\tasbe\code\savvycoders\Capstone\node_modules\dotenv132909158909355645 1
-50C:\Users\tasbe\code\savvycoders\Capstone\style.css132911676058645141 0
+50C:\Users\tasbe\code\savvycoders\Capstone\style.css132911685576654382 0
 70C:\Users\tasbe\code\savvycoders\Capstone\node_modules\type-fest\source132881557589257437 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\word-wrap\README.md132881557586917565 0
 58C:\Users\tasbe\code\savvycoders\Capstone\old\cryptids.html132909900402486820 0
@@ -2993,7 +2993,7 @@
 80C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\lazy-result.js132909158911155722 0
 78C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\_charsEndIndex.js132910020071050769 0
 94C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds\win32-x64\node.abi93.node132909158919645479 0
-68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132911676059636052 0
+68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132911685091589486 0
 105C:\Users\tasbe\code\savvycoders\Capstone\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js132909158907856160 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\list.d.ts132909158913387708 0
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\nanoid132909158922142397 0
@@ -3451,7 +3451,7 @@
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\parseInt.js132910020075666078 0
 89C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\css\properties.schema.json132909158912174932 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\index.js132909158907286241 0
-63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132911674298002808 0
+63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132911680346762175 0
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\pathEq.js132910020075666078 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\inheritance.schema.json132909158911595132 0
 95C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\features\svg-filters.js132909158921035534 0
@@ -7421,10 +7421,10 @@
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.cmd132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.ps1132909158922157294 0
-64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132911676059636052 0
-67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132911674298039489 0
+64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132911685091589486 0
+67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132911680346782182 0
 63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.c36f364e.js132909860858786427 0
-56C:\Users\tasbe\code\savvycoders\Capstone\dist\index.html132910710932686731 0
+56C:\Users\tasbe\code\savvycoders\Capstone\dist\index.html132911680346893716 0
 61C:\Users\tasbe\code\savvycoders\Capstone\components\Footer.js132910714292486089 0
 58C:\Users\tasbe\code\savvycoders\Capstone\components\Nav.js132911671188243506 0
 57C:\Users\tasbe\code\savvycoders\Capstone\components\views132909137077155798 1

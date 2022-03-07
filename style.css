@@ -31,19 +31,18 @@ html {
 }
 nav {
   background-color: #ad64c5;
-  list-style: none;
   margin: auto;
   width: 100%;
 }
-nav > li {
+nav > ul {
+  display: inline-flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+  list-style: none;
+}
+nav > ul > li > a {
+  color: black;
   padding: 10px;
   margin: 5px;
-  display: inline-block;
-  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
-}
-nav > ul > a {
-  color: black;
-  text-decoration: none;
 }
 .HPintro {
   text-align: center;
