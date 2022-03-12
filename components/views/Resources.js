@@ -3,11 +3,23 @@ export default () => html`
 <section id="Resources">
     <div class="movies">
         <!--add documentary links-->
-        <p><strong>Movies:</strong></p>
+        <p><strong>Movies:</strong>
+        <br>
+    <a href="https://en.wikipedia.org/wiki/The_Mothman_Prophecies_(film)
+" target="blank">The Mothman Prophecies</a>
+<br>
+<a href="https://www.imdb.com/title/tt7204170/" target="blank">Chasing Bigfoot</a>
+<br>
+</p>
     </div>
     <div class="books">
         <!--add books links-->
-        <p><strong>Books:</strong></p>
+        <p><strong>Books:</strong>
+        <br>
+        <a href="https://www.amazon.com/Tracking-Chupacabra-Vampire-Fiction-Folklore/dp/0826350151" target="blank">Tracking the Chupacabra</a>
+        <br>
+        <br>
+    </p>
     </div>
     <div class="web">
         <!--add website links-->
@@ -15,7 +27,7 @@ export default () => html`
     </div>
     <div class="contactInfo">
     <h4>Contact info: Tiffany Asbell</h4>
-    <p>Phone: (912) 655-1292</p>
+    <p>Email: tasbell26@gmail.com</p>
     <a href="https://www.linkedin.com/in/tiffany-a-a76801226?trk=people-guest_people_search-card" target="blank">Linkedin</a>
     </div>
     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action=https://formspree.io/f/mbjwyjlp method="post">

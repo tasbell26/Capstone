@@ -22,13 +22,14 @@ html {
   background-image: url(https://images.unsplash.com/photo-1598932025281-f89c3670ac53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHRyZWV8ZW58MHx8MHx8&w=1000&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 99.5%;
   height: 225px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: #ad64c5 solid 4px;
 }
+/* add highlight hover make font bigger */
 nav {
   background-color: #ad64c5;
   margin: auto;
