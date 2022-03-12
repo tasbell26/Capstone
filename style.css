@@ -39,12 +39,12 @@ nav > ul {
   display: inline-flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
   list-style: none;
-  text-decoration: none;
 }
 nav > ul > li > a {
   color: black;
   padding: 10px;
   margin: 5px;
+  text-decoration-line: none;
 }
 .HPintro {
   text-align: center;
