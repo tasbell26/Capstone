@@ -50,7 +50,12 @@ function afterRender(st) {
 }
 
 // router hooks
-
+router.hooks({
+  before: (done, params) => {
+    // axios call here
+    done();
+  },
+});
 router
   .on({
     "/": () => render(state.Home),
