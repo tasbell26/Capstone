@@ -83,7 +83,7 @@
 74C:\Users\tasbe\code\savvycoders\Capstone\node_modules\enquirer\lib\ansi.js132881557594411516 0
 66C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\eq.js132910020073066617 0
 96C:\Users\tasbe\code\savvycoders\Capstone\node_modules\path-browserify\test\test-path-basename.js132916726842079386 0
-45C:\Users\tasbe\code\savvycoders\Capstone\dist132916774722850407 1
+45C:\Users\tasbe\code\savvycoders\Capstone\dist132916794987238386 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\before.js132910020072458205 0
 68C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds132909158916018074 1
 87C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\dist\lib\statuses.js132909158920978858 0
@@ -136,7 +136,7 @@
 87C:\Users\tasbe\code\savvycoders\Capstone\node_modules\uri-js\dist\esnext\regexps-uri.js132881557587193321 0
 92C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss-minify-params\types\index.d.ts132909158909345655 0
 96C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\features\border-image.js132909158914467028 0
-49C:\Users\tasbe\code\savvycoders\Capstone\index.js132916774721055925 0
+49C:\Users\tasbe\code\savvycoders\Capstone\index.js132916782716088887 0
 88C:\Users\tasbe\code\savvycoders\Capstone\node_modules\@parcel\core\lib\serializerCore.js132909158915318168 0
 78C:\Users\tasbe\code\savvycoders\Capstone\node_modules\yargs-parser\LICENSE.txt132881557587783617 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\unzip.js132910020077221237 0
@@ -166,7 +166,7 @@
 72C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.package-lock.json132916726843345723 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\css-tree\lib\lexer\generic-urange.js132909158913931755 0
 60C:\Users\tasbe\code\savvycoders\Capstone\node_modules\dotenv132909158909355645 1
-50C:\Users\tasbe\code\savvycoders\Capstone\style.css132915852672791696 0
+50C:\Users\tasbe\code\savvycoders\Capstone\style.css132916794986256806 0
 70C:\Users\tasbe\code\savvycoders\Capstone\node_modules\type-fest\source132881557589257437 1
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\word-wrap\README.md132881557586917565 0
 58C:\Users\tasbe\code\savvycoders\Capstone\old\cryptids.html132909900402486820 0
@@ -3035,7 +3035,7 @@
 80C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\lazy-result.js132909158911155722 0
 78C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\_charsEndIndex.js132910020071050769 0
 94C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lmdb\prebuilds\win32-x64\node.abi93.node132909158919645479 0
-68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132916726850029453 0
+68C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css.map132916794987208383 0
 105C:\Users\tasbe\code\savvycoders\Capstone\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js132909158907856160 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\postcss\lib\list.d.ts132909158913387708 0
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\nanoid132909158922142397 0
@@ -3500,7 +3500,7 @@
 82C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\css\properties.json132909158912087330 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\parseInt.js132910020075666078 0
 75C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\index.js132909158907286241 0
-63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132916774722754136 0
+63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js132916792168557567 0
 73C:\Users\tasbe\code\savvycoders\Capstone\node_modules\lodash\fp\pathEq.js132910020075666078 0
 90C:\Users\tasbe\code\savvycoders\Capstone\node_modules\mdn-data\api\inheritance.schema.json132909158911595132 0
 95C:\Users\tasbe\code\savvycoders\Capstone\node_modules\caniuse-lite\data\features\svg-filters.js132909158921035534 0
@@ -7519,8 +7519,8 @@
 65C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.cmd132909158922157294 0
 69C:\Users\tasbe\code\savvycoders\Capstone\node_modules\.bin\terser.ps1132909158922157294 0
-64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132916726849943362 0
-67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132916774722840406 0
+64C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3a01df49.css132916794987208383 0
+67C:\Users\tasbe\code\savvycoders\Capstone\dist\index.3d214d75.js.map132916792168582983 0
 63C:\Users\tasbe\code\savvycoders\Capstone\dist\index.c36f364e.js132909860858786427 0
 56C:\Users\tasbe\code\savvycoders\Capstone\dist\index.html132916737956707811 0
 61C:\Users\tasbe\code\savvycoders\Capstone\components\Footer.js132910714292486089 0
