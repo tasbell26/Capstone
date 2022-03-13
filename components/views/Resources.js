@@ -18,7 +18,7 @@ export default () => html`
         <br>
         <a href="https://www.amazon.com/Tracking-Chupacabra-Vampire-Fiction-Folklore/dp/0826350151" target="blank">Tracking the Chupacabra</a>
         <br>
-        <a href="https://www.barnesandnoble.com/w/mothman-donnie-sergent/1116206027?ean=9780966724677">Mothman: The Facts Behind the Legend</a>
+        <a href="https://www.barnesandnoble.com/w/mothman-donnie-sergent/1116206027?ean=9780966724677" target="blank">Mothman: The Facts Behind the Legend</a>
         <br>
     </p>
     </div>
