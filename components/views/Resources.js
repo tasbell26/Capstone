@@ -18,12 +18,19 @@ export default () => html`
         <br>
         <a href="https://www.amazon.com/Tracking-Chupacabra-Vampire-Fiction-Folklore/dp/0826350151" target="blank">Tracking the Chupacabra</a>
         <br>
+        <a href="https://www.barnesandnoble.com/w/mothman-donnie-sergent/1116206027?ean=9780966724677">Mothman: The Facts Behind the Legend</a>
         <br>
     </p>
     </div>
     <div class="web">
         <!--add website links-->
-        <p><strong>Web Links:</strong></p>
+        <p><strong>Web Links:</strong>
+        <br>
+        <a href="$1"></a>
+        <br>
+        <a href="$1"></a>
+        <br>
+    </p>
     </div>
     <div class="contactInfo">
     <h4>Contact info: Tiffany Asbell</h4>

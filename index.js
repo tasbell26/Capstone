@@ -3,9 +3,14 @@ import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
+import axios from "axios";
 
+// API
+import dotenv from "dotenv";
+dotenv.config();
+
+// navbar navigator
 const router = new Navigo("/");
-
 function render(st) {
   document.querySelector("#root").innerHTML = `
       ${Header(st)}
@@ -36,6 +41,8 @@ function addEventListeners(st) {
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
 }
+
+// router hooks
 
 router
   .on({
