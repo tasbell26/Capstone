@@ -34,6 +34,7 @@ export default () => html`
       <img src="https://freesvg.org/img/Bigfoot.png" alt="Bigfoot" />
       <figcaption></figcaption>
     </div>
+    https://github.com/tasbell26
     <div>
       <p class="BFbio">
         <strong>Bigfoot!</strong><br />

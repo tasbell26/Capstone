@@ -32,11 +32,14 @@ export default () => html`
         <br>
     </p>
     </div>
+    <!-- contact info -->
     <div class="contactInfo">
     <h4>Contact info: Tiffany Asbell</h4>
     <p>Email: tasbell26@gmail.com</p>
     <a href="https://www.linkedin.com/in/tiffany-a-a76801226?trk=people-guest_people_search-card" target="blank">Linkedin</a>
+    <a href="https://github.com/tasbell26" target="blank">Github</a>
     </div>
+    <!-- message form -->
     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action=https://formspree.io/f/mbjwyjlp method="post">
 <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>

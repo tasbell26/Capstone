@@ -66,7 +66,7 @@ footer {
   border: #ad64c5 solid 4px;
 }
 .MMbio {
-  display: right;
+  display: flex;
   background-color: white;
 }
 .MMpic {
@@ -82,7 +82,7 @@ footer {
   max-height: 500px;
 }
 .BFbio {
-  display: right;
+  display: flex;
   background-color: white;
 }
 .CHpic {
@@ -92,7 +92,7 @@ footer {
   max-height: 400px;
 }
 .CHbio {
-  display: right;
+  display: flex;
   background-color: white;
 }
 #map {
