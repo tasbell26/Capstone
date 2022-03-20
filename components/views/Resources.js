@@ -26,9 +26,9 @@ export default () => html`
         <!--add website links-->
         <p><strong>Web Links:</strong>
         <br>
-        <a href="$1"></a>
+        <a href="https://cryptidz.fandom.com/wiki/Cryptid_Wiki">Cryptidz fandom</a>
         <br>
-        <a href="$1"></a>
+        <a href="https://en.wikipedia.org/wiki/List_of_cryptids">Cryptids wikipedia</a>
         <br>
     </p>
     </div>
