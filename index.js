@@ -7,7 +7,7 @@ import axios from "axios";
 
 // API
 import dotenv from "dotenv";
-dotenv.config();
+// dotenv.config();
 
 // navbar navigator
 const router = new Navigo("/");
@@ -49,13 +49,37 @@ function afterRender(st) {
   }
 }
 
-// router hooks
+// national park api router hooks
 router.hooks({
   before: (done, params) => {
-    // axios call here
-    done();
+    const page =
+      params && params.data && params.data.page
+        ? capitalize(params.data.page)
+        : "Home";
+
+    if (page === "Goexploring") {
+      axios
+        .get(process.env.NATIONAL_PARK_API_URL)
+        // .then((response) =>
+        .then((response) => {
+          response.data.data[0].activities.forEach((activity) =>
+            state.Goexploring.activities.push(activity)
+          );
+
+          // console.log(response);
+          // console.log(response.data.data);
+          // state.Goexploring.parks = response.data.data;
+          // console.log(state.Goexploring.parks);
+          // state.Goexploring.activities = response.data.data[0].activities;
+          done();
+        })
+        .catch((err) => console.log(err));
+    } else {
+      done();
+    }
   },
 });
+
 router
   .on({
     "/": () => render(state.Home),

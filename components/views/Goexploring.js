@@ -1,5 +1,5 @@
 import html from "html-literal";
-export default () => html`
+export default (st) => html`
   <section id="Goexploring">
     <div>
       <!-- safety blurb -->
@@ -19,6 +19,17 @@ export default () => html`
       </p>
       <!-- or make it one whole box w/ a line break to separate sections -->
       <!-- leaflet api -->
+      <div id="npOutput">
+        <table id="nationalpark">
+          <tr>
+            <th>Park Name</th>
+            ${st.activities
+              .map((activity) => `<li>${st.activities}</li>`)
+              .join("")}
+          </tr>
+        </table>
+      </div>
+    ;
       <div id="map"></div>
     </div>
   </section>
