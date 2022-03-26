@@ -34,7 +34,7 @@ function afterRender(st) {
   console.log(st);
   if (st.view === "Goexploring") {
     // add nashville lat and long
-    let map = L.map("map").setView([36.1627, 86.7816], 13);
+    let map = L.map("map").setView([36.174465, -86.76796], 13);
     L.tileLayer(
       `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.LEAFLET_API_KEY}`,
       {
