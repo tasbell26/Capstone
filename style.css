@@ -40,7 +40,22 @@ nav > ul > li > a {
   text-decoration-line: none;
   font-size: x-large;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 200ms ease;
+  border-radius: 5px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  background: white;
+  color: #ad64c5;
+  border: 1px solid #ad64c5;
 }
+/* add hover effect for nav bar links */
+/* nav button hover effect */
+.hidden--mobilenav-links {
+  background: white;
+  color: #ad64c5;
+  border: 1px solid #ad64c5;
+}
+
 @media (min-width: 549px) {
   nav > .fa-bars {
     display: none;
