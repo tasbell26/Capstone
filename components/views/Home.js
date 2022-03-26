@@ -17,7 +17,6 @@ export default () => html`
     <img
       class="mothmanPic"
       src="https://live.staticflickr.com/6136/5959385046_49e475c150_b.jpg"
-      alt="Mothman Statue Point Pleasant, WV"
     />
     <figcaption>
       Mothman Statue Point Pleasant, WV, OZinOH, no changes made,

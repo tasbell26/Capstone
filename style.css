@@ -8,16 +8,7 @@ html {
   padding: 0;
   margin: 0;
 }
-@media (min-width: 549px) {
-  nav > .fa-bars {
-    display: none;
-  }
-}
-@media (max-width: 550px) {
-  .hidden--mobile {
-    display: none;
-  }
-}
+
 .banner {
   background-image: url(https://images.unsplash.com/photo-1598932025281-f89c3670ac53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHRyZWV8ZW58MHx8MHx8&w=1000&q=80);
   background-repeat: no-repeat;
@@ -29,7 +20,9 @@ html {
   align-items: center;
   border: #ad64c5 solid 4px;
 }
-/* add highlight hover make font bigger */
+
+/* nav bar  */
+/* add highlight hover for links */
 nav {
   background-color: #ad64c5;
   margin: auto;
@@ -48,56 +41,119 @@ nav > ul > li > a {
   font-size: x-large;
   font-weight: bold;
 }
+@media (min-width: 549px) {
+  nav > .fa-bars {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .hidden--mobile {
+    display: none;
+  }
+}
+
+/* home page body */
 .HPintro {
-  text-align: center;
+  float: right;
+  max-width: 800px;
   padding: 20px;
   margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: white;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
 footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
   display: block;
   text-align: center;
 }
 .mothmanPic {
-  max-width: 300px;
-  max-height: 300px;
+  float: left;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  max-height: 600px;
   border: #ad64c5 solid 4px;
 }
-.MMbio {
-  display: flex;
+
+/* cryptid page */
+.Cryptidbio {
   background-color: white;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+  float: right;
+  padding: 20px;
+  margin: 10px;
+  max-width: 700px;
 }
-.MMpic {
-  display: flex;
-  justify-content: space-around;
-  max-width: 400px;
-  max-height: 400px;
+.Cryptidpic {
+  padding: 20px;
+  margin: 10px;
 }
-.BFpic {
-  display: flex;
-  justify-content: space-around;
-  max-width: 500px;
-  max-height: 500px;
-}
-.BFbio {
-  display: flex;
+
+/* go exploring page */
+/* go exploring safety section */
+.safetyTips {
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 700px;
   background-color: white;
+  border: #ad64c5 solid 4px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
-.CHpic {
-  display: flex;
-  justify-content: space-around;
-  max-width: 400px;
-  max-height: 400px;
-}
-.CHbio {
-  display: flex;
-  background-color: white;
-}
+
+/* map and api */
 #map {
+  border: #ad64c5 solid 4px;
   height: 500px;
   width: 500px;
-  display: flex;
-  justify-content: left;
+  display: center;
+}
+
+/* resources page */
+#resourcesLinks {
+  border: #ad64c5 solid 4px;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+}
+
+/* form */
+#fs-frm {
+  border: #ad64c5 solid 4px;
+  background-color: white;
+  height: 400px;
+  width: 800px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+}
+
+/* contacts */
+.contactInfo {
+  border: #ad64c5 solid 4px;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }

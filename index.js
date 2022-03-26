@@ -33,7 +33,8 @@ function afterRender(st) {
     );
   console.log(st);
   if (st.view === "Goexploring") {
-    let map = L.map("map").setView([51.505, -0.09], 13);
+    // add nashville lat and long
+    let map = L.map("map").setView([36.1627, 86.7816], 13);
     L.tileLayer(
       `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.LEAFLET_API_KEY}`,
       {
@@ -62,6 +63,7 @@ router.hooks({
         .get(process.env.NATIONAL_PARK_API_URL)
         // .then((response) =>
         .then((response) => {
+          // add hiking before foreach?
           response.data.data[0].activities.forEach((activity) =>
             state.Goexploring.activities.push(activity)
           );
@@ -70,7 +72,7 @@ router.hooks({
           // console.log(response.data.data);
           // state.Goexploring.parks = response.data.data;
           // console.log(state.Goexploring.parks);
-          // state.Goexploring.activities = response.data.data[0].activities;
+          // state.Goexploring.activities = response.data.data[0].activities.hiking;
           done();
         })
         .catch((err) => console.log(err));
