@@ -27,9 +27,7 @@ export default (st) => html`
         <table id="nationalPark">
           <tr>
             <th>Park Name</th>
-            ${st.activities
-              .map((activity) => `<li>${activity.name}</li>`)
-              .join("")}
+            ${st.parks.map((activity) => `<li>${activity.name}</li>`).join("")}
           </tr>
         </table>
       </div>

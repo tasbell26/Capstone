@@ -61,13 +61,12 @@ router.hooks({
       axios
         .get(process.env.NATIONAL_PARK_API_URL)
         .then((response) => {
-          //chain a filter method to isolate hiking activities
-          // let hikingActivity = activities.filter(activity(hiking) {
-          //   return activity.activities == "hiking",
-          // });
-          response.data.data[0].activities.forEach((activity) =>
-            state.Goexploring.activities.push(activity)
-          );
+          console.log(response);
+          let hikingActivity = response.data.data[0].parks.filter((park) => {
+            return park.states === "HI";
+          });
+          console.log(hikingActivity);
+          state.Goexploring.parks = hikingActivity;
           done();
         })
         .catch((err) => console.log(err));
