@@ -4,10 +4,7 @@ import * as state from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
-
-// API
 import dotenv from "dotenv";
-// dotenv.config();
 
 // navbar navigator
 const router = new Navigo("/");
@@ -32,6 +29,8 @@ function afterRender(st) {
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
   console.log(st);
+
+  // leaflet api
   if (st.view === "Goexploring") {
     // add nashville lat and long
     let map = L.map("map").setView([36.174465, -86.76796], 13);
@@ -61,18 +60,14 @@ router.hooks({
     if (page === "Goexploring") {
       axios
         .get(process.env.NATIONAL_PARK_API_URL)
-        // .then((response) =>
         .then((response) => {
-          // add hiking before foreach?
+          //chain a filter method to isolate hiking activities
+          // let hikingActivity = activities.filter(activity(hiking) {
+          //   return activity.activities == "hiking",
+          // });
           response.data.data[0].activities.forEach((activity) =>
             state.Goexploring.activities.push(activity)
           );
-
-          // console.log(response);
-          // console.log(response.data.data);
-          // state.Goexploring.parks = response.data.data;
-          // console.log(state.Goexploring.parks);
-          // state.Goexploring.activities = response.data.data[0].activities.hiking;
           done();
         })
         .catch((err) => console.log(err));
@@ -91,3 +86,9 @@ router
     },
   })
   .resolve();
+
+// console.log(response);
+// console.log(response.data.data);
+// state.Goexploring.parks = response.data.data;
+// console.log(state.Goexploring.parks);
+// state.Goexploring.activities = response.data.data[0].activities.hiking;

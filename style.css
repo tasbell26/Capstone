@@ -41,17 +41,14 @@ nav > ul > li > a {
   font-size: x-large;
   font-weight: bold;
   cursor: pointer;
-  transition: all 200ms ease;
   border-radius: 5px;
+  transition: all 200ms ease;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  background: white;
-  color: #ad64c5;
-  border: 1px solid #ad64c5;
 }
 /* add hover effect for nav bar links */
 /* nav button hover effect */
-.hidden--mobilenav-links {
-  background: white;
+.hover {
+  background-color: white;
   color: #ad64c5;
   border: 1px solid #ad64c5;
 }
@@ -102,11 +99,17 @@ footer {
   float: right;
   padding: 20px;
   margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   max-width: 700px;
+  border: #ad64c5 solid 4px;
 }
 .Cryptidpic {
   padding: 20px;
   margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: #ad64c5 solid 4px;
 }
 
 /* go exploring page */
@@ -128,6 +131,10 @@ footer {
   border: #ad64c5 solid 4px;
   height: 500px;
   width: 500px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: center;
 }
 
