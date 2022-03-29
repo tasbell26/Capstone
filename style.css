@@ -179,3 +179,10 @@ footer {
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
+
+/* blogposts page */
+#Blogposts {
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+  color: #ad64c5;
+}

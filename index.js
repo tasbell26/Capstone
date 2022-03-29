@@ -5,6 +5,7 @@ import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
 import dotenv from "dotenv";
+import { stringify } from "querystring";
 
 // navbar navigator
 const router = new Navigo("/");
@@ -56,14 +57,14 @@ router.hooks({
       params && params.data && params.data.page
         ? capitalize(params.data.page)
         : "Home";
-
+    // create function that goes over the array to find a specific state, add drop down to search for state, add that to eventlistener
     if (page === "Goexploring") {
       axios
         .get(process.env.NATIONAL_PARK_API_URL)
         .then((response) => {
           console.log(response);
           let hikingActivity = response.data.data[0].parks.filter((park) => {
-            return park.states === "HI";
+            return park.states === "TN";
           });
           console.log(hikingActivity);
           state.Goexploring.parks = hikingActivity;
@@ -85,9 +86,5 @@ router
     },
   })
   .resolve();
-
-// console.log(response);
-// console.log(response.data.data);
-// state.Goexploring.parks = response.data.data;
-// console.log(state.Goexploring.parks);
-// state.Goexploring.activities = response.data.data[0].activities.hiking;
+// string.prototype.search();
+// string.prototype.match(regexp);
