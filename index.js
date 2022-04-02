@@ -57,7 +57,7 @@ router.hooks({
       params && params.data && params.data.page
         ? capitalize(params.data.page)
         : "Home";
-    // create function that goes over the array to find a specific state, add drop down to search for state, add that to eventlistener
+
     if (page === "Goexploring") {
       axios
         .get(process.env.NATIONAL_PARK_API_URL)
