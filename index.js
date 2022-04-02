@@ -85,9 +85,3 @@ router
     },
   })
   .resolve();
-
-// console.log(response);
-// console.log(response.data.data);
-// state.Goexploring.parks = response.data.data;
-// console.log(state.Goexploring.parks);
-// state.Goexploring.activities = response.data.data[0].activities.hiking;
