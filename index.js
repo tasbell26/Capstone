@@ -33,7 +33,7 @@ function afterRender(st) {
   // leaflet api
   if (st.view === "Goexploring") {
     // add nashville lat and long
-    let map = L.map("map").setView([36.174465, -86.76796], 13);
+    let map = L.map("map").setView([35.59367, -83.824997], 13);
     L.tileLayer(
       `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=${process.env.LEAFLET_API_KEY}`,
       {
@@ -62,8 +62,8 @@ router.hooks({
         .get(process.env.NATIONAL_PARK_API_URL)
         .then((response) => {
           console.log(response);
-          let hikingActivity = response.data.data[0].parks.filter((parks) => {
-            return parks.states === "HI";
+          let hikingActivity = response.data.data[0].parks.filter((park) => {
+            return park.states === "TN";
           });
           console.log(hikingActivity);
           state.Goexploring.parks = hikingActivity;
