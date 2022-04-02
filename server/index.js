@@ -47,9 +47,9 @@ app.use(cors);
 app.use(express.json());
 app.use(logging);
 
-// routers changed /status to /Goexploring 4/1
+// routers
 app.use("/Goexploring", Goexploring);
-app.get("/Goexploring", (request, response) => {
+app.get("/status", (request, response) => {
   response.send(JSON.stringify({ message: "Service healthy" }));
 });
 app.get("/", (request, response) => {
