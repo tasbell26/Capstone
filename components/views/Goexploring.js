@@ -26,12 +26,18 @@ export default (st) => html`
         <!-- park name linked to nationalPark -->
         <table id="nationalPark">
           <tr>
-            <th>Park Name</th>
-            ${st.parks.map((activity) => `<li>${activity.name}</li>`).join("")}
+            <td>Parks:</td>
+            <td>National Park, TN</td>
+            <tr>
+            <td>${st.parks
+              .map((activity) => `<li>${activity.name}</li>`)
+              .join("")}</td>
+              </tr>
+              <td>Hiking Activities:</td>
           </tr>
         </table>
       </div>
-
+      <p class="mapCaption">Use this map to plan your next trip!</p>
       <div id="map"></div>
     </div>
   </section>
