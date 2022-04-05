@@ -6,7 +6,7 @@ const parkSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-
+});
 
 const parks = mongoose.model("Goexploring", parkSchema);
 
