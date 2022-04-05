@@ -26,8 +26,7 @@ export default (st) => html`
         <!-- park name linked to nationalPark -->
         <table id="nationalPark">
           <tr>
-            <td>Parks:</td>
-            <td>National Park, TN</td>
+            <td>Parks in TN:</td>
             <tr>
             <td>${st.parks
               .map((activity) => `<li>${activity.name}</li>`)

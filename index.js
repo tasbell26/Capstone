@@ -62,7 +62,7 @@ router.hooks({
         .get(process.env.NATIONAL_PARK_API_URL)
         .then((response) => {
           console.log(response);
-          let hikingActivity = response.data.data[0].parks.map((parks) => {
+          let hikingActivity = response.data.data[0].parks.filter((parks) => {
             return parks.states === "TN";
           });
           console.log(hikingActivity);
