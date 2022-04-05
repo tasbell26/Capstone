@@ -5,7 +5,6 @@ import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
 import dotenv from "dotenv";
-import { stringify } from "querystring";
 
 // navbar navigator
 const router = new Navigo("/");
@@ -76,6 +75,7 @@ router.hooks({
           .catch((err) => console.log(err));
       });
     }
+    done();
   },
 });
 
