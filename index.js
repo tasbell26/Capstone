@@ -59,25 +59,22 @@ router.hooks({
         : "Home";
 
     if (page === "Goexploring") {
-      axios
-        .get(process.env.NATIONAL_PARK_API_URL)
-        .then((response) => {
-          console.log(response);
-          let hikingActivity = [];
-
-          response.data.data[0].parks.forEach((parks) => {
+      axios.get(process.env.NATIONAL_PARK_API_URL).then((response) => {
+        console.log(response);
+        let hikingActivity = [];
+        response.data.data[0].parks
+          .map((parks) => {
             let output = "";
-            hikingActivity.forEach((parks, index) => {
-              output += `${parks.states}: ${parks.states[activities]}, `;
-            return parks.states === "TN";
+            hikingActivity.map((parks, index) => {
+              output += `${parks.states}: ${parks.states[parks]}, `;
+              return parks.states === "TN";
+            });
+            console.log(hikingActivity);
+            state.Goexploring.parks = hikingActivity;
+            done();
           })
-          console.log(hikingActivity);
-          state.Goexploring.parks = hikingActivity;
-          done();
-        })
-        .catch((err) => console.log(err));
-    } else {
-      done();
+          .catch((err) => console.log(err));
+      });
     }
   },
 });
@@ -91,5 +88,3 @@ router
     },
   })
   .resolve();
-// string.prototype.search();
-// string.prototype.match(regexp);
