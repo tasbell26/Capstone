@@ -42,12 +42,12 @@ nav > ul > li > a {
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
-  transition: all 200ms ease;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 /* add hover effect for nav bar links */
 /* nav button hover effect */
-.hover {
+nav > ul > li :hover {
+  transition: all 200ms ease;
   background-color: white;
   color: #ad64c5;
   border: 1px solid #ad64c5;
@@ -73,6 +73,7 @@ nav > ul > li > a {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: white;
+  border: #ad64c5 solid 4px;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
@@ -88,7 +89,9 @@ footer {
   margin-bottom: 30px;
   max-width: 600px;
   max-height: 600px;
-  border: #ad64c5 solid 4px;
+}
+.mothCopy {
+  width: 500px;
 }
 
 /* cryptid page */
@@ -109,7 +112,16 @@ footer {
   margin: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  border: #ad64c5 solid 4px;
+  width: 700px;
+}
+.mothMan {
+  display: inline-flex;
+}
+.bigFoot {
+  display: inline-flex;
+}
+.chupa {
+  display: inline-flex;
 }
 
 /* go exploring page */
@@ -156,14 +168,17 @@ footer {
 #fs-frm {
   border: #ad64c5 solid 4px;
   background-color: white;
+  float: right;
   height: 400px;
   width: 800px;
   padding: 20px;
-  margin: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-right: 10px;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+}
+input[type="submit"] {
+  cursor: pointer;
+  margin: 10px;
 }
 
 /* contacts */
@@ -180,10 +195,9 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
 
-/* blogposts page */
 #Blogposts {
+  text-align: center;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
-  text-align: center;
   color: #ad64c5;
 }

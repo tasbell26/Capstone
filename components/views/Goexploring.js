@@ -1,7 +1,6 @@
 import html from "html-literal";
 export default (st) => html`
   <section id="Goexploring">
-    <div>
       <!-- safety blurb -->
     <div class="safetyTips">
       <p><strong>Don't forget to observe some basic rules of safety:</strong>
@@ -15,11 +14,6 @@ export default (st) => html`
         </ul>
       </p>
     </div>
-      <p>
-        Use this map to assist you in finding hiking and biking trails for you
-        to do your own hunting for Cryptids in your area.
-      </p>
-      </div>
       <!-- or make it one whole box w/ a line break to separate sections -->
       <!-- leaflet api -->
       <div id="npOutput">
@@ -27,11 +21,10 @@ export default (st) => html`
         <table id="nationalPark">
           <tr>
             <td>Parks:</td>
-            <tr>
+            </tr>
             <td>${st.parks
               .map((activity) => `<li>${activity.name}</li>`)
-              .join("")}</td>
-              </tr>
+              .join("")}</td> 
           <tr>
           <td>${st.mongo.map((place) => `<li>${place.park}</li>`).join("")}</td>
           </tr>
@@ -39,6 +32,5 @@ export default (st) => html`
       </div>
       <p class="mapCaption">Use this map to plan your next trip!</p>
       <div id="map"></div>
-    </div>
   </section>
 `;
