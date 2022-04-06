@@ -1,12 +1,13 @@
 // routers are always plural and representing the route your using
 const { Router } = require("express");
-const Goexploring = require("../models/Goexplorings");
+const Parks = require("../models/Goexplorings");
 
 const router = Router();
 
 router.get("/", (request, response) => {
-  Goexploring.model.find({}, (error, record) => {
+  Parks.model.find({}, (error, record) => {
     if (error) return response.sendStatus(500).json(error);
+    console.log(record);
     return response.json(record);
   });
 });

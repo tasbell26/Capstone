@@ -8,9 +8,9 @@ const parkSchema = new mongoose.Schema({
   },
 });
 
-const parks = mongoose.model("Goexploring", parkSchema);
+const Parks = mongoose.model("Parks", parkSchema);
 
 module.exports = {
   schema: parkSchema,
-  model: parks,
+  model: Parks,
 };
