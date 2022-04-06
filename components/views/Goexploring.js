@@ -26,13 +26,14 @@ export default (st) => html`
         <!-- park name linked to nationalPark -->
         <table id="nationalPark">
           <tr>
-            <td>Parks in TN:</td>
+            <td>Parks:</td>
             <tr>
             <td>${st.parks
               .map((activity) => `<li>${activity.name}</li>`)
               .join("")}</td>
               </tr>
-              <td>Hiking Activities:</td>
+          <tr>
+          <td>${st.mongo.map((place) => `<li>${place.park}</li>`).join("")}</td>
           </tr>
         </table>
       </div>

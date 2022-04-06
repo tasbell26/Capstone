@@ -70,6 +70,15 @@ router.hooks({
           done();
         })
         .catch((err) => console.log(err));
+      axios
+        .get(process.env.PARKAPI)
+        .then((response) => {
+          // look at class SPA to save info
+          state.Goexploring.mongo = response.data;
+          console.log("this is mongo: ", response.data);
+          done();
+        })
+        .catch((err) => console.log(err));
     } else {
       done();
     }
