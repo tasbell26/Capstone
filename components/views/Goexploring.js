@@ -21,13 +21,12 @@ export default (st) => html`
         <table id="nationalPark">
           <tr>
             <td>Parks:</td>
-            <td>National Park, TN</td>
-            <tr>
+            </tr>
             <td>${st.parks
               .map((activity) => `<li>${activity.name}</li>`)
-              .join("")}</td>
-              </tr>
-              <td>Hiking Activities:</td>
+              .join("")}</td> 
+          <tr>
+          <td>${st.mongo.map((place) => `<li>${place.park}</li>`).join("")}</td>
           </tr>
         </table>
       </div>
