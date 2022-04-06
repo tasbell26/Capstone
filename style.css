@@ -194,9 +194,11 @@ input[type="submit"] {
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
+
+/* blogposts page */
 #Blogposts {
-  text-align: center;
   font-size: x-large;
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+  text-align: center;
   color: #ad64c5;
 }

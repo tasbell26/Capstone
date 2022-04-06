@@ -1,17 +1,14 @@
-/* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
 // importing mongoose
 
 const parkSchema = new mongoose.Schema({
-  parks: {
-    park: {
-      type: String,
-      required: true,
-    },
-    state: {
-      type: String,
-      required: true,
-    },
+  park: {
+    type: String,
+    required: true,
+  },
+  state: {
+    type: String,
+    required: true,
   },
 });
 

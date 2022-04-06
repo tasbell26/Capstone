@@ -26,7 +26,7 @@ export default (st) => html`
               .map((activity) => `<li>${activity.name}</li>`)
               .join("")}</td>
               </tr>
-              <tr>
+          <tr>
           <td>${st.mongo.map((place) => `<li>${place.park}</li>`).join("")}</td>
           </tr>
         </table>
