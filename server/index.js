@@ -4,7 +4,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 // saving each library to a variable to use later
-const Goexploring = require("./routers/goexploring");
+const Park = require("./routers/park");
 dotenv.config();
 
 const app = express();
@@ -66,7 +66,7 @@ app.post("/", (request, response) => {
   body.date = Date.now();
   response.json(body);
 });
-app.use("/goexploring", Goexploring);
+app.use("/park", Park);
 
 // all routes go above the listen
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

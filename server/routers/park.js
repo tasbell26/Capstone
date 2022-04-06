@@ -1,6 +1,6 @@
 // routers are always plural and representing the route your using
 const { Router } = require("express");
-const Parks = require("../models/Goexplorings");
+const Parks = require("../models/Parks");
 
 const router = Router();
 
