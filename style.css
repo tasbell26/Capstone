@@ -44,8 +44,7 @@ nav > ul > li > a {
   border-radius: 5px;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
-/* add hover effect for nav bar links */
-/* nav button hover effect */
+
 nav > ul > li :hover {
   transition: all 200ms ease;
   background-color: white;
@@ -138,6 +137,19 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
 
+#nationalPark {
+  padding: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 700px;
+  float: right;
+  background-color: white;
+  border: #ad64c5 solid 4px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
+}
+
 /* map and api */
 #map {
   border: #ad64c5 solid 4px;
@@ -148,6 +160,11 @@ footer {
   margin-top: 30px;
   margin-bottom: 30px;
   display: center;
+}
+
+.mapCaption {
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }
 
 /* resources page */
@@ -201,4 +218,18 @@ input[type="submit"] {
   font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
   text-align: center;
   color: #ad64c5;
+}
+.blog {
+  border: #ad64c5 solid 4px;
+  background-color: white;
+  color: black;
+  height: 200px;
+  width: 700px;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibre, "Trebuchet MS", sans-serif;
 }

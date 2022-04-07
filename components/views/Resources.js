@@ -51,10 +51,11 @@ export default () => html`
 
 <!-- contact info -->
     <div class="contactInfo">
-    <h4>Contact info: Tiffany Asbell</h4>
-    <p>Email: tasbell26@gmail.com</p>
+    <h4>Contact info for: Tiffany</h4>
     <a href="https://www.linkedin.com/in/tiffany-a-a76801226?trk=people-guest_people_search-card" target="blank">Linkedin</a>
+    <br>
     <a href="https://github.com/tasbell26" target="blank">Github</a>
-    </div>
+<p><strong>Feel free to send me a message!</strong></p>
+</div>
 </section>
 `;
